@@ -10,6 +10,4 @@ export let  query = async (id) => {
         craftVsBuy: responseJSON.craftVsBuy,
         min: responseJSON === "Craft" ? responseJSON.formatCraftingBuySum : responseJSON.formatBuyPrice,
     };
-}
-
-;
+};
