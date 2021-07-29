@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/shop-crossout/static/css/main.499de2ed.chunk.css",
+    "main.js": "/shop-crossout/static/js/main.00b73aa7.chunk.js",
+    "main.js.map": "/shop-crossout/static/js/main.00b73aa7.chunk.js.map",
+    "runtime-main.js": "/shop-crossout/static/js/runtime-main.f353175a.js",
+    "runtime-main.js.map": "/shop-crossout/static/js/runtime-main.f353175a.js.map",
+    "static/css/2.c09b5ca6.chunk.css": "/shop-crossout/static/css/2.c09b5ca6.chunk.css",
+    "static/js/2.031b6ee9.chunk.js": "/shop-crossout/static/js/2.031b6ee9.chunk.js",
+    "static/js/2.031b6ee9.chunk.js.map": "/shop-crossout/static/js/2.031b6ee9.chunk.js.map",
+    "static/js/3.5bd2542d.chunk.js": "/shop-crossout/static/js/3.5bd2542d.chunk.js",
+    "static/js/3.5bd2542d.chunk.js.map": "/shop-crossout/static/js/3.5bd2542d.chunk.js.map",
+    "index.html": "/shop-crossout/index.html",
+    "static/css/2.c09b5ca6.chunk.css.map": "/shop-crossout/static/css/2.c09b5ca6.chunk.css.map",
+    "static/css/main.499de2ed.chunk.css.map": "/shop-crossout/static/css/main.499de2ed.chunk.css.map",
+    "static/js/2.031b6ee9.chunk.js.LICENSE.txt": "/shop-crossout/static/js/2.031b6ee9.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f353175a.js",
+    "static/css/2.c09b5ca6.chunk.css",
+    "static/js/2.031b6ee9.chunk.js",
+    "static/css/main.499de2ed.chunk.css",
+    "static/js/main.00b73aa7.chunk.js"
+  ]
+}
