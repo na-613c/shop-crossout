@@ -24,7 +24,11 @@ let Container = ({ item, add, remove }) => {
             <Row
                 justify="space-around"
                 align="middle"
-                style={{ background: item.count !== 0 ? 'white' : 'rgba(255, 255, 255, .5)', fontSize: 20 }}
+                style={{
+                    background: item.count !== 0 ? 'white' : 'rgba(255, 255, 255, .5)',
+                    fontSize: 20,
+                    boxShadow: item.count !== 0 ? "0px 0px 10px 10px rgba(0, 0, 0, 0.2)" : 'none',
+                }}
                 gutter={[0, 32]}>
                 <Col span={4}>
                     {item.name}

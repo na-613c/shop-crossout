@@ -17,8 +17,8 @@ function App() {
   useEffect(() => {
     Promise.all([query(372), query(1123), query(1124), query(47), query(33), query(560), query(1315), query(1058)])
       .then(res => setItems(res.map(i => ({ ...i, count: 0 }))))
-      .then(l => sum_min = items.reduce((acc, cur) => +cur.min * cur.count + acc, 0.00))
-      .then(l => sum_max = items.reduce((acc, cur) => +cur.sell * cur.count + acc, 0.00))
+      .then(_ => sum_min = items.reduce((acc, cur) => +cur.min * cur.count + acc, 0.00))
+      .then(_ => sum_max = items.reduce((acc, cur) => +cur.sell * cur.count + acc, 0.00))
 
     //372 gorbun
     //1123 soratnik
@@ -47,7 +47,7 @@ function App() {
       Children: {
         value: sum,
         floatLength: 2,
-        formatMoney: false,
+        formatMoney: true,
       },
       duration: 1000,
     }
